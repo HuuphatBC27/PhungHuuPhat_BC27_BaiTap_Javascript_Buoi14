@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>bai tap javascrip buoi 14</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>bài 1 : Nhập số liệu</h1>
+      <h2>Nhập Số</h2>
+      <h3>số 1</h3>
+      <label for="number1" class="form-label"></label>
+      <input type="number" class="form-control" id="numBer1" />
+      <h3>số 2</h3>
+      <label for="number2" class="form-label"></label>
+      <input type="number" class="form-control" id="numBer2" />
+      <h3>số 3</h3>
+      <label for="canh3" class="form-label"></label>
+      <input type="number" class="form-control" id="numBer3" />
+    </div>
+    <button onclick="ketQua()">Kết quả</button>
+    <div id="reSult" style="display: none">
+      <p></p>
+    </div>
+
+    <h1>bài 2 : Lời xin chào</h1>
+
+    <h2>Ai đang sử dụng máy</h2>
+    <label for="user" class="form-label"></label>
+    <input type="text" class="form-control" id="user" />
+    <button style="display: block" onclick="people()">Xin chào</button>
+    <div id="toTal" style="display: block">
+      <p></p>
+    </div>
+
+    <h1>bài 3 xuất số chẵn lẻ</h1>
+    <p>Nhập 3 số nguyên</p>
+    <h2>A</h2>
+    <label for="Number4" class="form-label"></label>
+    <input type="number" class="form-control" id="Number4" />
+    <h2>B</h2>
+    <label for="Number5" class="form-label"></label>
+    <input type="number" class="form-control" id="Number5" />
+    <h2>C</h2>
+    <label for="Number6" class="form-label"></label>
+    <input type="number" class="form-control" id="Number6" />
+    <button style="display: block" onclick="Parity()">Ấn Vào</button>
+    <div id="finish" style="display: none">
+      <p></p>
+    </div>
+
+    <header>
+      <h1>Bài tập 4 :Đoán hình tam giác</h1>
+    </header>
+    <main>
+      <span>
+        Chỉ cần xác định các loại tam giác cơ bản (vuông, đều , cân ), các tam
+        giác còn lại xếp loại là <br />
+        tam giác khác
+      </span>
+      <i class="fa-regular fa-right"></i>
+      <p>cách xác định loại tam giác</p>
+
+      <label for="canh1" class="form-label"></label>
+      <input type="text" class="form-control" id="canh1" />
+
+      <label for="canh2" class="form-label"></label>
+      <input type="text" class="form-control" id="canh2" />
+
+      <label for="canh3" class="form-label"></label>
+      <input type="text" class="form-control" id="canh3" />
+    </main>
+    <button onclick="Figure() ">Dự Đoán</button>
+    <div id="ketQua" style="display: none">
+      <p id="tamGiac">Kết quả là</p>
+    </div>
+
+    <script src="./bai1_Sothututangdan.js"></script>
+    <script src="./bai2_chaohoi.js"></script>
+    <script src="./bai3_xuatsochanle.js"></script>
+    <script src="./bai4_tamgiac.js"></script>
+  </body>
+</html>
