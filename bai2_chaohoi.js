@@ -24,3 +24,6 @@ function people() {
     document.getElementById("toTal").style.color = "red";
   }
 }
+// b1 : DOM TỚI CÁC INPUT Và lấy giá tri 
+//b2 :  nhập kí hiệu gia đình 
+// b3 : xuất dữ liệu đã được liên kết với kí hiệu 

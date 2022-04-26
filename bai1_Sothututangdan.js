@@ -40,3 +40,7 @@ function ketQua() {
       number3El + "," + number2El + "," + number1El;
   }
 }
+//b1 : input : DOM tới các  input và lấy giá trị  là 1 số nguyên
+// giá trị lấy được là string ép về kiểu number
+// b2 :nhập số thứ tự
+// b3 :xuất số thứ tự theo thứ tự tăng dần

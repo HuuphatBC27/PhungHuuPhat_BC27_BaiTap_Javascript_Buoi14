@@ -36,3 +36,6 @@ function Parity() {
     reSultEl.innerHTML = " có 2 số lẻ" + "," + " 1 số chẳn";
   }
 }
+// b1 : DOM tới các input và lấy giá trị  số 
+// B2 : nhập các số nguyên
+//b3  : xuất ra số chẳn và lẻ

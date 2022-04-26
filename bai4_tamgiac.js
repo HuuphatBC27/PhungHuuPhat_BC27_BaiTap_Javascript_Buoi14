@@ -8,8 +8,12 @@ function Figure() {
 
   if (edgeA == "" || edgeB == "" || edgeC == "") {
     document.getElementById("tamGiac").innerHTML = "Chưa có số kìa  ";
-    document.getElementById("tamGiac").style.fontWeight= '700'
-  } else if (edgeA + edgeB < edgeC || edgeA + edgeC < edgeB || edgeB + edgeC < edgeA) {
+    document.getElementById("tamGiac").style.fontWeight = "700";
+  } else if (
+    edgeA + edgeB < edgeC ||
+    edgeA + edgeC < edgeB ||
+    edgeB + edgeC < edgeA
+  ) {
     document.getElementById("tamGiac").innerHTML = " không phải tam giác";
     document.getElementById("tamGiac").style.fontWeight = "700";
   } else if (edgeA === edgeB && edgeB === edgeC) {
@@ -25,5 +29,8 @@ function Figure() {
   } else {
     document.getElementById("tamGiac").innerHTML = " tam giác khác ";
   }
-  
 }
+
+//b1 : DOM tới các input và lấy giá trị là các cạnh của hình
+//b2 : xét xem đấy là tam giác gì
+//b3 : xuất ra kết quả
